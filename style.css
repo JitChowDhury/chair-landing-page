@@ -60,11 +60,13 @@ h2 {
   text-transform: uppercase;
   display: inline-block;
   font-weight: 500;
+  border-radius: 15px;
 }
 
 .btn:hover,
 .btn:active {
   background-color: #099268;
+  border-radius: 15px;
 }
 
 .btn--big {
@@ -139,6 +141,7 @@ img {
   color: #fff;
   padding: 24px;
   box-shadow: 0px 25px 25px 0px rgba(8, 127, 91, 0.3);
+  border-radius: 15px;
 }
 
 .testimonial-box {
@@ -162,6 +165,12 @@ img {
 /* CHAIRS */
 .chair {
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .chair-box {
